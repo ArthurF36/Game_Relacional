@@ -1,0 +1,8 @@
+mary
+	{username: "mary", fistname: "Mary", lastname: "Wilson", opponent: username_rick, game: 2345} 
+	
+Rick
+	{username: "rick", fistname: "Ricky", lastname: "Doe", score: 42, opponent: username_mary, game: 2345}
+	
+Game
+	{id: 2345, foreignkey1: username_mary, foreignkey2: username_rick, rounds: {moves1: ..., moves2: ..., ..., movesN: ...}}
